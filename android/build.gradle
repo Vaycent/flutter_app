@@ -1,8 +1,8 @@
 buildscript {
     repositories {
-        maven { url 'http://10.79.1.169:8081/nexus/content/groups/android_all/' }
-//        google()
-//        jcenter()
+//        maven { url 'http://10.79.1.169:8081/nexus/content/groups/android_all/' }
+        google()
+        jcenter()
     }
 
     dependencies {
@@ -12,9 +12,9 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url 'http://10.79.1.169:8081/nexus/content/groups/android_all/' }
-//        google()
-//        jcenter()
+//        maven { url 'http://10.79.1.169:8081/nexus/content/groups/android_all/' }
+        google()
+        jcenter()
     }
 }
 
